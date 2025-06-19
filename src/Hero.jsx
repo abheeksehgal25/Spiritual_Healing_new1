@@ -61,7 +61,7 @@ const Hero = () => {
           </div>
         ))}
          {/* Add spacing below testimonials */}
-      <div className="h-8" />
+      <div className="h-24 md:h-36" />
 
       {/* Scrollbar Hiding CSS */}
       <style>{`

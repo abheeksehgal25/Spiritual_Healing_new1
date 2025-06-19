@@ -45,7 +45,7 @@ const ServicesOffered = () => (
       <p className="mt-5 font-light text-[20px] md:text-[28px] leading-[24px] md:leading-[28px] tracking-[0px] font-lato">{services[0].desc}</p>
       <div className='bg-[#E7F6A0] px-10 py-10 rounded-full'></div>
       <a href="https://web.whatsapp.com/">
-      <button className="mt-6 bg-[#0655A0] hover:bg-blue-800 text-white md:text-[18px] px-5 md:px-7 py-3 rounded-full shadow-lg transition font-bold leading-[24px] tracking-[2px] text-center uppercase font-urbanist">
+      <button className="mt-6 bg-[#0655A0] hover:bg-blue-800 text-white md:text-[18px] px-5 md:px-7 py-3 rounded-full shadow-lg transition font-bold leading-[24px] px-8 py-2 text-[15.68px] tracking-[2px] text-center uppercase font-urbanist">
         CONTACT US
       </button> </a>
     </div>
@@ -68,9 +68,9 @@ const ServicesOffered = () => (
       <h3 className="mb-2 font-normal text-[40px] md:text-[56px] leading-[40px] md:leading-[56px] tracking-[0px] font-cormorant">{services[3].title}</h3>
       
       <p className="mt-5 font-light text-[20px] md:text-[28px] leading-[24px] md:leading-[28px] tracking-[0px] font-lato">{services[3].desc}</p>
-      <div className='bg-[#E7F6A0] px-10 py-10 rounded-full'></div>
+      <div className='bg-[#E7F6A0] px-8 py-8 rounded-full'></div>
       <a href="https://web.whatsapp.com/">
-      <button className="mt-6 bg-[#0655A0] hover:bg-blue-800 text-white md:text-[18px] px-5 md:px-7 py-3 rounded-full shadow-lg transition font-bold leading-[24px] tracking-[2px] text-center uppercase font-urbanist">
+      <button className="mt-6 bg-[#0655A0] hover:bg-blue-800 text-white md:text-[18px] px-5 md:px-7 py-3 rounded-full shadow-lg transition font-bold leading-[24px] px-8 py-2 text-[15.68px] tracking-[2px] text-center uppercase font-urbanist">
         CONTACT US
       </button></a>
     </div>
