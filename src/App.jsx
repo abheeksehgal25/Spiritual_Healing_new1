@@ -31,9 +31,13 @@ function App() {
         <ServicesOffered />
         
       </section>
+      <section>
+        <NumerologyHero />
+        
+      </section>
 
       <section id="events">
-        <NumerologyHero />
+        
         <UpcomingEvents />
       </section>
 

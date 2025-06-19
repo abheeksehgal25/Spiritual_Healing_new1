@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
     <div className="border-t border-[#C7D3E0] py-4 px-4 md:px-12 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto">
       <div className="text-[#0655A0] text-sm font-lato mb-2 md:mb-0">
-        Develope By house of marktech<br />
+        Developed By house of marktech<br />
         © 2025 Nyouta. All rights reserved.
       </div>
       <div className="flex items-center gap-4">

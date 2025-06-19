@@ -18,12 +18,7 @@ const reviews = [
     avatar: bigOne,
     name: 'User Name',
   },
-  {
-    text: 'My approach blends the ancient wisdom of yoga therapy with',
-    text2: 'My approach blends the ancient wisdom of yoga therapy with',
-    avatar: bigOne,
-    name: 'User Name',
-  },
+ 
 ];
 
 const NumerologyHero = () => {
@@ -64,26 +59,47 @@ const NumerologyHero = () => {
             </div>
           </div>
         </div>
-        {/* Review slider */}
-        <div className="w-full">
-          <div className="flex-1 w-full max-w-xl mx-auto min-h-[90px] overflow-x-auto" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-            <div className="flex" style={{ height: '100%' }}>
-              {reviews.map((review, idx) => (
-                <div key={idx} className="bg-white/10 backdrop-blur-md rounded-3xl p-4 flex items-center min-w-[220px] max-w-xs min-h-[90px] h-[90px] mr-4 shadow-2xl">
-                  <img src={review.avatar} alt="avatar" className="h-12 w-12 rounded-2xl object-cover mr-4" />
-                  <div className="flex flex-col text-white text-xs font-lato font-light">
-                    <span className="mb-2 font-light text-[10px] leading-[15px] tracking-[0px] align-middle font-urbanist">{review.text}</span>
-                    <span className='font-light text-[10px] leading-[15px] tracking-[0px] align-middle font-urbanist'>{review.text2}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <style>{`
-              .scrollbar-hide::-webkit-scrollbar { display: none; }
-            `}</style>
+       {/* Review slider */}
+<div className="w-full">
+  <div className="flex-1 w-full max-w-xl mx-auto min-h-[90px] overflow-x-auto scrollbar-hide">
+    <div className="flex flex-nowrap">
+      {reviews.map((review, idx) => (
+        <div
+          key={idx}
+          className="bg-white/10 backdrop-blur-md rounded-3xl p-4 flex items-center min-w-[220px] max-w-xs min-h-[90px] h-[90px] mr-4 shadow-2xl"
+        >
+          <img
+            src={review.avatar}
+            alt="avatar"
+            className="h-12 w-12 rounded-2xl object-cover mr-4"
+          />
+          <div className="flex flex-col text-white text-xs font-lato font-light">
+            <span className="mb-2 font-light text-[10px] leading-[15px] tracking-[0px] align-middle font-urbanist">
+              {review.text}
+            </span>
+            <span className="font-light text-[10px] leading-[15px] tracking-[0px] align-middle font-urbanist">
+              {review.text2}
+            </span>
           </div>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Hide scrollbar for Webkit browsers */}
+  <style>{`
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  `}</style>
+</div>
+
+        </div>
+      
       {/* Desktop: original layout */}
       <div className="hidden md:block w-full h-full relative z-10">
         {/* Top left content */}

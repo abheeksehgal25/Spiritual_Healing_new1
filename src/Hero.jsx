@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
       </div>
        {/* Testimonials Within Hero Section */}
-      <div className="flex flex-col md:flex-row flex-wrap gap-4 md:gap-6 mt-6 pb-6 w-full justify-start">
+      <div className="flex flex-col md:flex-row flex-wrap gap-4 md:gap-6 mt-6 w-full justify-start">
         {testimonials.map((t, idx) => (
           <div
             key={idx}
