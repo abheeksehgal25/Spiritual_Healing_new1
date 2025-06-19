@@ -60,6 +60,14 @@ const Hero = () => {
             </div>
           </div>
         ))}
+         {/* Add spacing below testimonials */}
+      <div className="h-8" />
+
+      {/* Scrollbar Hiding CSS */}
+      <style>{`
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+      `}</style>
       </div>
     </section>
   );

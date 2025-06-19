@@ -56,12 +56,13 @@ const Navbar = () => {
         </ul>
 
         {/* CTA Button */}
+        <a href="https://web.whatsapp.com/">
         <button
           className={`w-full md:w-auto mt-4 md:mt-0 px-6 py-2 rounded-full font-medium transition shadow 
             ${menuOpen ? 'bg-white text-[#0655A0]' : 'bg-white/20 text-white hover:bg-white/40'}`}
         >
           Join Now
-        </button>
+        </button></a>
       </div>
 
       {/* Backdrop (Mobile only) */}
