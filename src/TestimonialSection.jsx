@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: 'Devshree annad',
     role: 'Corporate lawyer',
-    image: image, 
+    image: 'https://mastdp.com/img/alone-girl-dp/alone-girl-pic-download.webp', 
     text: 'My approach blends the ancient wisdom of yoga therapy with spiritual tools such as Tarot reading, Numerology, and intuitive guidance to support transformation on all levels—body, mind, and soul.',
     bgColor: 'bg-[#E2F4FA]',
     textColor: 'text-[#565656]',
@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: 'Devshree annad',
     role: 'Corporate lawyer',
-    image: image,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyW2MAFrFnfa_bT1jSttLbmvfotJcqQyCCGg&s",
     text: 'My approach blends the ancient wisdom of yoga therapy with spiritual tools such as Tarot reading, Numerology, and intuitive guidance to support transformation on all levels—body, mind, and soul.',
     bgColor: 'bg-[#F9FDDC]',
     textColor: 'text-[#565656]',
@@ -25,7 +25,7 @@ const testimonials = [
   {
     name: 'Devshree annad',
     role: 'Corporate lawyer',
-    image: image,
+    image: 'https://photosrush.net/wp-content/uploads/cute-profile-pic-beautiful-girl-simple-indian-1.jpg',
     text: 'My approach blends the ancient wisdom of yoga therapy with spiritual tools such as Tarot reading, Numerology, and intuitive guidance to support transformation on all levels—body, mind, and soul.',
     bgColor: 'bg-[#E2F4FA]',
     textColor: 'text-[#565656]',
@@ -35,7 +35,7 @@ const testimonials = [
 
 const TestimonialSection = () => {
   return (
-    <div className="px-4 py-16 w-full bg-white">
+    <div className="px-4 py-16 w-full  bg-white">
       {/* Heading + Arrows in one flex row */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div className="ml-4 md:ml-24">
@@ -59,7 +59,7 @@ const TestimonialSection = () => {
         {testimonials.map((t, i) => (
           <div
             key={i}
-            className={`${t.bgColor} border ${t.borderColor} p-6 rounded-b-full rounded-t-lg shadow hover:shadow-lg transition duration-300 h-full flex flex-col items-center`}
+            className={`${t.bgColor} border ${t.borderColor} p-6 rounded-b-full rounded-t-lg shadow hover:shadow-lg transition duration-300 h-full flex min-h-[300px] md:min-h-[300px] overflow-hidden flex-col items-center`}
           >
             {/* Image + Name + Role */}
             <div className="flex items-center gap-4 mb-4">
@@ -70,7 +70,7 @@ const TestimonialSection = () => {
               </div>
             </div>
             {/* Text */}
-            <p className="text-[#565656] text-center font-normal text-[15.82px] leading-[23.17px] tracking-[0px] align-middle font-lato mt-4">{t.text}</p>
+            <p className="text-[#565656] text-center flex-wrap font-normal text-[15.82px] leading-[23.17px] tracking-[0px] align-middle font-lato mt-4">{t.text}</p>
           </div>
         ))}
       </div>

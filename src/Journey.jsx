@@ -10,7 +10,21 @@ const Journey = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           {/* Primary Button */}
           <button className="bg-[#0655A0] text-white px-6 py-3 rounded-full shadow-md hover:shadow-lg hover:bg-[#054a8a] transition flex items-center space-x-2" >
-            <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/all-icons/chat-bubble-oval-left-ellipsis-oauw334st3eo8c42vnivy.png/chat-bubble-oval-left-ellipsis-tsq0e6vl06ox5tpkb9cds.png?_a=DATAdtAAZAA0" alt="" className="w-7 h-7 color-green"/> <span>Let's Talk</span>
+           <svg
+  xmlns="http://www.w3.org/2000/svg"
+  className="h-6 w-6"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  strokeWidth={2}
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.77 9.77 0 01-4.35-1l-4.65 1 1.25-3A8.996 8.996 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+  />
+</svg>
+ <span>Let's Talk</span>
             
           </button>
           <span className="text-[#0655A0] font-medium">Or</span>

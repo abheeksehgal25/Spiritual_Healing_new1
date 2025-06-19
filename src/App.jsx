@@ -10,6 +10,7 @@ import UpcomingEvents from './UpcomingEvents'
 import TestimonialSection from './TestimonialSection'
 import Journey from './Journey'
 import Footer from './Footer'
+import ImageSlider from './ImageSlider';
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
       <section id="blogs">
         <TestimonialSection />
         <Journey />
+      </section>
+      <section >
+        <ImageSlider/>
       </section>
 
       {/* Footer (no scroll link needed) */}
