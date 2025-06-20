@@ -42,7 +42,7 @@ const UpcomingEvents = () => (
       <div className="flex flex-col md:flex-row md:items-start md:space-x-12 max-w-7xl mx-auto w-full">
         {/* Left heading */}
         <div className="w-full md:w-1/4 mb-8 md:mb-0 flex-shrink-0 mt-4">
-          <h3 className="text-[#1661A6] text-3xl md:text-[60px] font-cormorant font-normal leading-tight text-left">
+          <h3 className="text-[#1661A6] text-3xl md:text-[60px] font-cormorant font-medium leading-tight text-left">
             Upcoming<br />Events
           </h3>
         </div>

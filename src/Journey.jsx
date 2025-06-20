@@ -4,7 +4,7 @@ const Journey = () => {
   return (
     <div className="flex items-center justify-center w-full bg-white px-4 py-12">
       <div className="bg-[#F6FCDB] rounded-[200px] w-full max-w-7xl text-center py-16 px-4 md:px-20 shadow-md">
-        <h1 className="text-2xl sm:text-3xl md:text-[60px] font-cormorant text-[#0655A0] mb-14 font-normal  leading-[56px] tracking-[2px]  ">
+        <h1 className="text-2xl sm:text-3xl md:text-[60px] font-cormorant text-[#0655A0] mb-14 font-medium  leading-[56px] tracking-[2px]  ">
           Your Healing Journey Starts Here
         </h1>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
