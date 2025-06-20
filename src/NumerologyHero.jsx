@@ -33,7 +33,7 @@ const NumerologyHero = () => {
       <div className="absolute inset-0 bg-black/60 z-0" />
 
       {/* Mobile Layout */}
-      <div className="flex flex-col items-center space-y-24 md:hidden relative z-10 w-full px-4 pt-10">
+      <div className="flex flex-col items-center space-y-24 md:hidden relative z-10 w-full px-4 pt-10 ml-[1.5px]">
         <div className="w-full">
           <span className="text-white font-normal text-base leading-6 tracking-[0px] font-inter mb-3 block">Gain clarity .</span>
           <h1 className="text-white font-cormorant text-3xl sm:text-4xl font-normal leading-tight tracking-[2px] text-left">
@@ -93,8 +93,8 @@ const NumerologyHero = () => {
       </div>
 
       {/* Desktop Layout */}
-      <div className="hidden md:block w-full h-full relative z-10">
-        <div className="w-full max-w-7xl mx-auto pt-16 ml-24 flex flex-col items-start">
+      <div className="hidden md:block h-full relative z-10">
+        <div className="max-w-7xl mx-auto px-4 pt-16 ml-24 flex flex-col items-start">
           <span className="text-white font-normal text-base leading-6 tracking-[0px] font-inter mb-3">Gain clarity .</span>
           <h1 className="text-white font-cormorant text-[90px] font-normal leading-[90px] tracking-[2px] text-left">
             Infinite power<br />of Numerology
@@ -102,6 +102,7 @@ const NumerologyHero = () => {
         </div>
       </div>
 
+      {/* Button with ml-24 for alignment */}
       <div className="hidden md:flex flex-col items-start justify-center absolute top-1/2 left-0 ml-24 z-20 transform -translate-y-1/2 pointer-events-none">
         <button className="flex items-center bg-[#0655A0] hover:bg-blue-800 text-white font-semibold px-7 py-3 rounded-full shadow-lg transition text-[18px] leading-[24px] tracking-[2px] text-center uppercase font-urbanist pointer-events-auto">
           START DOING TODAY
@@ -113,6 +114,7 @@ const NumerologyHero = () => {
         </button>
       </div>
 
+      {/* Badge with ml-24 for alignment */}
       <div className="hidden md:block absolute bottom-8 left-0 ml-24 z-10">
         <div className="flex flex-col bg-white/10 rounded-3xl px-8 py-6 backdrop-blur-md shadow-2xl min-w-[370px] max-w-[420px] min-h-[110px]">
           <div className="flex items-center mb-4">

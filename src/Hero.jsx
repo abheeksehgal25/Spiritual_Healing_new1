@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const testimonials = [
   {
     text: 'My approach blends the ancient wisdom of yoga therapy with',
@@ -46,28 +45,17 @@ const Hero = () => {
           </button>
         </div>
       </div>
-       {/* Testimonials Within Hero Section */}
-      <div className="flex flex-col md:flex-row flex-wrap gap-4 md:gap-6 mt-6 w-full justify-start">
+      {/* Testimonial cards - stacked at bottom of Hero section, not fixed */}
+      <div className="flex flex-col md:flex-row gap-4 md:gap-12 md:pr-12 mt-8 md:mt-16 w-full px-0 pb-0">
         {testimonials.map((t, idx) => (
-          <div
-            key={idx}
-            className="bg-white/20 backdrop-blur-md rounded-3xl p-4 md:p-6 text-white w-full md:w-[45%] lg:w-[22%] shadow-lg"
-          >
-            <p className="mb-4 text-sm font-lato">{t.text}</p>
+          <div key={idx} className="bg-white/20 backdrop-blur-md rounded-3xl p-4 md:p-6 text-white w-full max-w-sm shadow-lg mx-auto md:mx-0">
+            <div className="mb-4 text-sm md:text-[12px] font-normal  leading-[15px] tracking-[0px] align-middle font-lato">{t.text}</div>
             <div className="mt-4">
-              <div className="text-sm font-lato">{t.author}</div>
-              <div className="text-sm font-lato">{t.title}</div>
+              <div className="text-sm md:text-[12px] font-normal  leading-[15px] tracking-[0px] align-middle font-lato">{t.author}</div>
+              <div className="text-sm md:text-[12px] font-normal  leading-[15px]  tracking-[0px] align-middle font-lato ">{t.title}</div>
             </div>
           </div>
         ))}
-         {/* Add spacing below testimonials */}
-      <div className="h-24 md:h-36" />
-
-      {/* Scrollbar Hiding CSS */}
-      <style>{`
-        .scrollbar-hide::-webkit-scrollbar { display: none; }
-        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
-      `}</style>
       </div>
     </section>
   );

@@ -23,16 +23,18 @@ function App() {
       <section id="home">
         <Slider />
         <Hero />
-      </section>
-
-      <section id="about">
-        <WhyChooseUs  />
+        <Features />
       </section>
 
       <section id="services">
         <ServicesOffered />
         
       </section>
+      <section id="about">
+        <WhyChooseUs  />
+      </section>
+
+    
       <section>
         <NumerologyHero />
         
