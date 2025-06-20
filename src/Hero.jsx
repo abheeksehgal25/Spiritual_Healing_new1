@@ -16,11 +16,7 @@ const testimonials = [
     author: '-Ajay kushwash',
     title: 'Business owner',
   },
-  {
-    text: 'My approach blends the ancient wisdom of yoga therapy with',
-    author: '-Ajay kushwash',
-    title: 'Business owner',
-  },
+  
 ];
 
 const Hero = () => {
@@ -46,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Testimonial cards - stacked at bottom of Hero section, not fixed */}
-      <div className="flex flex-col md:flex-row gap-4 md:gap-12 md:pr-12 mt-8 md:mt-16 w-full px-0 pb-0">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-12 md:pr-12 mt-8 md:mt-28 w-full px-0 pb-0">
         {testimonials.map((t, idx) => (
           <div key={idx} className="bg-white/20 backdrop-blur-md rounded-3xl p-4 md:p-6 text-white w-full max-w-sm shadow-lg mx-auto md:mx-0">
             <div className="mb-4 text-sm md:text-[12px] font-normal  leading-[15px] tracking-[0px] align-middle font-lato">{t.text}</div>

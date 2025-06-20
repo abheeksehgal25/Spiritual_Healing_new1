@@ -1,9 +1,9 @@
 import React from 'react';
 import bg from './assets/background.png';
-import avatar from './assets/avatar.jpg';
-import avatar_1 from './assets/avatar_1.jpg';
-import avatar_2 from './assets/avatar_2.jpg';
-import bigOne from './assets/big_one.jpg';
+import avatar from './assets/dummy.jpg';
+import avatar_1 from './assets/dummy.jpg';
+import avatar_2 from './assets/dummy.jpg';
+import bigOne from './assets/dummy.jpg';
 
 const reviews = [
   {
