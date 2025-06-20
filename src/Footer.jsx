@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="bg-[#EAF1F8] border-t border-[#C7D3E0] w-full mt-12">
-    <div className="max-w-7xl mx-auto px-4 md:px-12 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 justify-center text-center">
+    <div className="w-full mx-auto px-4 md:px-12 py-10 grid grid-cols-1 md:grid-cols-3 gap-20 justify-between text-center">
       {/* Spiritual */}
       <div>
         <h4 className="text-[#0655A0] text-xl font-semibold mb-4 font-lato">Spiritual</h4>

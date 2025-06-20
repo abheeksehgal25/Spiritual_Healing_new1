@@ -26,7 +26,7 @@ const UpcomingEvents = () => (
     <div className="marquee-wrapper bg-white py-8 px-0 md:px-0 mt-8 mb-8">
       <div className="marquee-inner w-full h-full mt-2 mb-2">
         <div className="marquee-content">
-          <h2 className="text-[#1661A6] text-3xl md:text-6xl font-cormorant font-normal leading-tight tracking-wide text-left inline-block px-4 md:px-16">
+          <h2 className="text-[#1661A6] text-3xl md:text-6xl font-cormorant font-medium leading-tight tracking-wide text-left inline-block px-4 md:px-16">
             Comfort, Care, Confidence, Power of Numerology
           </h2>
         </div>

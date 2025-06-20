@@ -39,7 +39,7 @@ const TestimonialSection = () => {
       {/* Heading + Arrows in one flex row */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div className="ml-4 md:ml-24">
-          <h2 className="text-3xl md:text-[60px] font-cormorant text-[#0655A0] text-start">
+          <h2 className="text-3xl md:text-[60px] font-cormorant text-[#0655A0] font-medium text-start">
             People finding inner peace
           </h2>
           <p className="text-[#0655A0] mt-9 text-start text-base md:text-[20px]">
