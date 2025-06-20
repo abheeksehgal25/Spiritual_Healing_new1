@@ -8,6 +8,7 @@ import WhyChooseUs from './WhyChooseUs'
 import NumerologyHero from './NumerologyHero'
 import UpcomingEvents from './UpcomingEvents'
 import TestimonialSection from './TestimonialSection'
+import BlogSection from './BlogSection'
 import Journey from './Journey'
 import Footer from './Footer'
 import ImageSlider from './ImageSlider';
@@ -44,6 +45,7 @@ function App() {
 
       <section id="blogs">
         <TestimonialSection />
+        <BlogSection />
         <Journey />
       </section>
       <section >
