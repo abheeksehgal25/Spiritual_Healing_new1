@@ -15,48 +15,51 @@ import ImageSlider from './ImageSlider';
 
 function App() {
   return (
-    <div className="relative w-full min-h-screen overflow-x-hidden">
-      {/* Navbar should be at the top */}
-      <Navbar />
+    <div className="relative w-full min-h-screen overflow-x-hidden ">
+      {/* Full-width components */}
+      
 
-      {/* Sections with IDs for scrolling */}
-      <section id="home">
+      {/* Centered and max-width container for the rest of the app */}
+      <div className="relative max-w-[1550px] mx-auto">
+        {/* Navbar should be at the top */}
+        <Navbar />
         <Slider />
-        <Hero />
-        <Features />
-      </section>
+      <Hero />
 
-      <section id="services">
-        <ServicesOffered />
-        
-      </section>
-      <section id="about">
-        <WhyChooseUs  />
-      </section>
+        {/* Sections with IDs for scrolling */}
+        <section id="home">
+          <Features />
+        </section>
 
-    
-      <section>
-        <NumerologyHero />
-        
-      </section>
+        <section id="services">
+          <ServicesOffered />
+        </section>
 
-      <section id="events">
-        
-        <UpcomingEvents />
-        <TestimonialSection />
-      </section>
+        <section id="about">
+          <WhyChooseUs />
+        </section>
 
-      <section id="blogs">
-        
-        <BlogSection />
-        <Journey />
-      </section>
-      <section >
-        <ImageSlider/>
-      </section>
+        <section>
+          <NumerologyHero />
+        </section>
 
-      {/* Footer (no scroll link needed) */}
-      <Footer />
+        <section id="events">
+          <UpcomingEvents />
+          <TestimonialSection />
+        </section>
+
+        <section id="blogs">
+          <BlogSection />
+          <Journey />
+        </section>
+
+        <section>
+          <ImageSlider />
+        </section>
+
+        {/* Footer (no scroll link needed) */}
+        <Footer />
+      </div>
     </div>
   )
 }
