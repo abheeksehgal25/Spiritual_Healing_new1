@@ -21,7 +21,7 @@ const testimonials = [
 
 const Hero = () => {
   return (
-    <section className="absolute top-0 left-0 w-full flex flex-col justify-start min-h-screen px-4 md:pl-12 z-10 max-w-full pt-32 pb-24">
+    <section className="absolute top-0 left-0 w-full flex flex-col justify-between min-h-screen px-4 md:pl-12 z-10 max-w-full pt-32 pb-24">
       <div className="max-w-xl">
         <span className="text-white font-normal text-base leading-6 tracking-[0px] font-lato  mb-2 block">Gain clarity .</span>
         <h1 className="text-white font-bold text-4xl md:text-[90px] font-cormorant leading-tight mb-4" style={{fontFamily: 'serif'}}>
@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Testimonial cards - stacked at bottom of Hero section, not fixed */}
-      <div className="hidden md:flex flex-col md:flex-row gap-4 md:gap-12 md:pr-12 mt-8 md:mt-18 w-full px-0 pb-0">
+      <div className="hidden md:flex flex-col md:flex-row gap-4 md:gap-12 md:pr-12 w-full px-0 pb-0">
         {testimonials.map((t, idx) => (
           <div key={idx} className="bg-white/20 backdrop-blur-md rounded-3xl p-4 md:p-6 text-white w-full max-w-sm shadow-lg mx-auto md:mx-0">
             <div className="mb-4 text-sm md:text-[12px] font-normal  leading-[15px] tracking-[0px] align-middle font-lato">{t.text}</div>
