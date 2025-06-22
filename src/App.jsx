@@ -43,10 +43,11 @@ function App() {
       <section id="events">
         
         <UpcomingEvents />
+        <TestimonialSection />
       </section>
 
       <section id="blogs">
-        <TestimonialSection />
+        
         <BlogSection />
         <Journey />
       </section>
