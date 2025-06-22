@@ -36,9 +36,9 @@ const ServicesOffered = () => (
     Services offered
   </h2>
 
-  <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-4 md:gap-10 mt-2 md:mt-5 relative z-10">
+  <div className="w-full max-w-7xl mx-auto flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-4 md:gap-10 mt-2 md:mt-5 relative z-10">
     {/* Top left Card */}
-    <div className={`relative rounded-2xl p-4 md:p-8 ${services[0].bg} transition-transform hover:scale-105 hover:shadow-xl cursor-pointer flex flex-col items-start justify-center w-full h-full md:aspect-square`}> 
+    <div className={`relative rounded-2xl p-4 md:p-8 ${services[0].bg} transition-transform hover:scale-105 hover:shadow-xl cursor-pointer flex flex-col items-start justify-center w-full h-full md:aspect-square order-1`}> 
       <div className='bg-[#E7F6A0] justify-end px-10 py-10 md:px-20 md:py-20 rounded-full'></div>
       <h3 className="mb-2 font-normal text-2xl md:text-[56px] leading-[32px] md:leading-[56px] tracking-[0px] font-cormorant">{services[0].title}</h3>
       <p className="mt-3 md:mt-5 font-light text-base md:text-[28px] leading-[20px] md:leading-[28px] tracking-[0px] font-lato">{services[0].desc}</p>
@@ -50,20 +50,20 @@ const ServicesOffered = () => (
     </div>
 
     {/* Top right Image with overlay */}
-    <div className="relative rounded-2xl overflow-hidden transition-transform hover:scale-105 hover:shadow-xl cursor-pointer w-full h-68 md:h-full md:aspect-square">
+    <div className="relative rounded-2xl overflow-hidden transition-transform hover:scale-105 hover:shadow-xl cursor-pointer w-full h-68 md:h-full md:aspect-square order-2">
       <img src={services[1].img} alt={services[1].alt} className="object-cover w-full h-full mix-blend-multiply" />
       <div className="absolute inset-0 bg-black/20"></div>
     </div>
 
     {/* Bottom left Image with overlay */}
-    <div className="relative rounded-2xl overflow-hidden transition-transform hover:scale-105 hover:shadow-xl cursor-pointer w-full h-68 md:h-full md:aspect-square">
+    <div className="relative rounded-2xl overflow-hidden transition-transform hover:scale-105 hover:shadow-xl cursor-pointer w-full h-68 md:h-full md:aspect-square order-4 md:order-3">
       <img src={services[2].img} alt={services[2].alt} className="object-cover w-full h-full mix-blend-multiply" />
       <div className="absolute inset-0 bg-black/20"></div>
     </div>
 
     {/* Bottom right Card */}
-    <div className={`relative rounded-2xl p-4 md:p-8 ${services[3].bg} transition-transform hover:scale-105 hover:shadow-xl cursor-pointer flex flex-col items-start justify-center w-full h-full md:aspect-square`}>
-      <div className='bg-[#E7F6A0] justify-end px-6 py-6 md:px-8 md:py-8 rounded-full'></div>
+    <div className={`relative rounded-2xl p-4 md:p-8 ${services[3].bg} transition-transform hover:scale-105 hover:shadow-xl cursor-pointer flex flex-col items-start justify-center w-full h-full md:aspect-square order-3 md:order-4`}>
+    <div className='bg-[#E7F6A0] justify-end px-10 py-10 md:px-20 md:py-20 rounded-full'></div>
       <h3 className="mb-2 font-normal text-2xl md:text-[56px] leading-[32px] md:leading-[56px] tracking-[0px] font-cormorant">{services[3].title}</h3>
       <p className="mt-3 md:mt-5 font-light text-base md:text-[28px] leading-[20px] md:leading-[28px] tracking-[0px] font-lato">{services[3].desc}</p>
       <div className='bg-[#E7F6A0] px-6 py-6 md:px-8 md:py-8 rounded-full'></div>
@@ -72,6 +72,7 @@ const ServicesOffered = () => (
         CONTACT US
       </button></a>
     </div>
+    
   </div>
 </section>
 
