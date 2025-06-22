@@ -20,7 +20,7 @@ function App() {
       
 
       {/* Centered and max-width container for the rest of the app */}
-      <div className="relative max-w-[1450px] mx-auto">
+      <div className="relative w-full max-w-[1400px] mx-auto">
         {/* Navbar should be at the top */}
         <Navbar />
         <Slider />
