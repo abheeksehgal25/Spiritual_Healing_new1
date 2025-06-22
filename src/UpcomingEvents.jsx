@@ -26,12 +26,12 @@ const UpcomingEvents = () => (
     <div className="marquee-wrapper bg-white py-8 px-0 md:px-0 mt-8 mb-8">
       <div className="marquee-inner w-full h-full mt-2 mb-2">
         <div className="marquee-content">
-          <h2 className="text-[#1661A6] text-3xl md:text-6xl font-cormorant font-medium leading-tight tracking-wide text-left inline-block px-4 md:px-16">
+          <h2 className="text-[#1661A6] text-4xl md:text-6xl font-cormorant font-medium leading-tight tracking-wide text-left inline-block px-4 md:px-16">
             Comfort, Care, Confidence, Power of Numerology
           </h2>
         </div>
         <div className="marquee-content">
-          <h2 className="text-[#1661A6] text-3xl md:text-6xl font-cormorant font-normal leading-tight tracking-wide text-left inline-block px-4 md:px-16">
+          <h2 className="text-[#1661A6] text-4xl md:text-6xl font-cormorant font-normal leading-tight tracking-wide text-left inline-block px-4 md:px-16">
             Comfort, Care, Confidence, Power of Numerology
           </h2>
         </div>
@@ -42,7 +42,7 @@ const UpcomingEvents = () => (
       <div className="flex flex-col md:flex-row md:items-start md:space-x-12 max-w-7xl mx-auto w-full">
         {/* Left heading */}
         <div className="w-full md:w-1/4 mb-8 md:mb-0 flex-shrink-0 mt-4">
-          <h3 className="text-[#1661A6] text-3xl md:text-[60px] font-cormorant font-medium leading-tight text-left">
+          <h3 className="text-[#1661A6] text-4xl md:text-[60px] font-cormorant font-medium leading-tight text-left">
             Upcoming<br />Events
           </h3>
         </div>

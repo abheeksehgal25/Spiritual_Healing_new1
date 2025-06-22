@@ -1,7 +1,6 @@
 import React from 'react';
 import left from './assets/left.png';
 import right from './assets/right.png';
-import image from './assets/avatar.jpg';
 
 const testimonials = [
   {
@@ -39,7 +38,7 @@ const TestimonialSection = () => {
       {/* Heading + Arrows in one flex row */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div className="ml-4 md:ml-24">
-          <h2 className="text-3xl md:text-[60px] font-cormorant text-[#0655A0] font-medium text-start">
+          <h2 className="text-[35px] md:text-[60px] font-cormorant text-[#0655A0] font-medium text-start">
             People finding inner peace
           </h2>
           <p className="text-[#0655A0] mt-9 text-start text-base md:text-[20px]">
@@ -47,7 +46,7 @@ const TestimonialSection = () => {
           </p>
         </div>
         {/* Arrows */}
-        <div className="flex gap-4 mt-2 md:mt-0 self-end md:self-center mr-4 md:mr-24">
+        <div className="hidden md:flex gap-4 mt-2 md:mt-0 self-end md:self-center mr-4 md:mr-24">
           <button className=" text-xl border-outline-[#8C6E63] hover:bg-gray-100 flex items-center justify-center"><img src={left} alt="left" className="w-12 h-12" /></button>
           <button className=" text-xl border-outline-[#8C6E63] hover:bg-gray-100 flex items-center justify-center"><img src={right} alt="right" className="w-12 h-12" /></button>
         </div>

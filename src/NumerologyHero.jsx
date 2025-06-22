@@ -18,6 +18,7 @@ const reviews = [
     avatar: bigOne,
     name: 'User Name',
   },
+  
 ];
 
 const NumerologyHero = () => {
@@ -69,13 +70,13 @@ const NumerologyHero = () => {
           </div>
         </div>
 
-        {/* Review Slider */}
-        <div className="w-full overflow-x-auto scrollbar-hide">
-          <div className="flex gap-4 px-2">
+        {/* Review Cards */}
+        <div className="w-full">
+          <div className="flex flex-col items-center gap-4 px-2">
             {reviews.map((review, idx) => (
               <div
                 key={idx}
-                className="bg-white/10 backdrop-blur-md rounded-3xl p-4 flex items-center min-w-[220px] h-[90px] shadow-2xl"
+                className="bg-white/10 backdrop-blur-md rounded-3xl p-4 flex items-center w-full max-w-xl h-auto min-h-[110px] shadow-2xl"
               >
                 <img src={review.avatar} alt="avatar" className="h-12 w-12 rounded-2xl object-cover mr-4" />
                 <div className="flex flex-col text-white text-xs font-lato font-light">
@@ -86,10 +87,6 @@ const NumerologyHero = () => {
             ))}
           </div>
         </div>
-        <style>{`
-          .scrollbar-hide::-webkit-scrollbar { display: none; }
-          .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
-        `}</style>
       </div>
 
       {/* Desktop Layout */}
@@ -132,7 +129,7 @@ const NumerologyHero = () => {
         </div>
       </div>
 
-      <div className="hidden md:block absolute bottom-0 right-0 mb-6 mr-6 z-10 overflow-x-auto scrollbar-hide">
+      <div className="hidden md:block absolute bottom-2 right-0 mb-6 mr-6 z-10 overflow-x-auto scrollbar-hide">
         <div className="flex gap-4 px-2">
           {reviews.map((review, idx) => (
             <div

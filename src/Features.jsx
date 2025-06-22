@@ -34,7 +34,7 @@ const Features = () => (
         <div key={idx} className="flex flex-col items-center text-center py-6 flex-1 w-full">
           <img src={f.icon} alt={f.label} className="h-20 w-20 mb-4 rounded-full bg-[#F5F6F4]" />
           <div className="text-4xl md:text-[56px]  text-[#0655A0] mb-2 font-normal  leading-[56px] tracking-[0.38px]   font-urbanist">{f.number}</div>
-          <div className="text-[#0655A0] text-lg md:text-[32px]  font-light  leading-[32px] tracking-[0.38px] font-cormorant mt-2">{f.label}</div>
+          <div className="text-[#0655A0] text-2xl md:text-[32px]  font-light  leading-[32px] tracking-[0.38px] font-cormorant mt-2">{f.label}</div>
         </div>
       ))}
     </div>

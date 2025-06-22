@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="bg-[#EAF1F8] border-t border-[#C7D3E0] w-full mt-12">
-    <div className="w-full mx-auto px-4 md:px-12 py-10 grid grid-cols-1 md:grid-cols-3 gap-20 justify-between text-center">
+    <div className="w-full mx-auto px-4 md:px-12 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-20 justify-between text-left md:text-center">
       {/* Spiritual */}
       <div>
         <h4 className="text-[#0655A0] text-xl font-semibold mb-4 font-lato">Spiritual</h4>
@@ -11,35 +11,35 @@ const Footer = () => (
           <li><a href="#" className="hover:underline">Join us</a></li>
           <li><a href="#" className="hover:underline">Offers</a></li>
           <li><a href="#" className="hover:underline">Awards</a></li>
-          <li><a href="#" className="hover:underline">Text here</a></li>
+          <li><a href="#" className="hover:underline">Events</a></li>
         </ul>
       </div>
       {/* Explore */}
       <div>
         <h4 className="text-[#0655A0] text-xl font-semibold mb-4 font-lato">Explore</h4>
         <ul className="space-y-2 text-[#0655A0] font-lato text-base">
-          <li>TEXT HERE</li>
-          <li>TEXT HERE</li>
-          <li>TEXT HERE</li>
-          <li>TEXT HERE</li>
-          <li>TEXT HERE</li>
+        <li><a href="#" className="hover:underline">About us</a></li>
+          <li><a href="#" className="hover:underline">Join us</a></li>
+          <li><a href="#" className="hover:underline">Offers</a></li>
+          <li><a href="#" className="hover:underline">Awards</a></li>
+          <li><a href="#" className="hover:underline">Events</a></li>
         </ul>
       </div>
       {/* Resources */}
       <div>
         <h4 className="text-[#0655A0] text-xl font-semibold mb-4 font-lato">Resources</h4>
         <ul className="space-y-2 text-[#0655A0] font-lato text-base">
-          <li>TEXT HERE</li>
-          <li>TEXT HERE</li>
-          <li>TEXT HERE</li>
-          <li>TEXT HERE</li>
-          <li>TEXT HERE</li>
+        <li><a href="#" className="hover:underline">About us</a></li>
+          <li><a href="#" className="hover:underline">Join us</a></li>
+          <li><a href="#" className="hover:underline">Offers</a></li>
+          <li><a href="#" className="hover:underline">Awards</a></li>
+          <li><a href="#" className="hover:underline">Events</a></li>
         </ul>
       </div>
     </div>
     <div className="border-t border-[#C7D3E0] py-4 px-4 md:px-12 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto">
-      <div className="text-[#0655A0] text-sm font-lato mb-2 md:mb-0">
-        Developed By house of marktech<br />
+      <div className="text-[#0655A0] text-sm font-lato mb-4 md:mb-0 text-left md:text-left">
+        Developed by House of Marktech<br />
         © 2025 Nyouta. All rights reserved.
       </div>
       <div className="flex items-center gap-4">
