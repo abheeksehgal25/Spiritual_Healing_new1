@@ -34,7 +34,7 @@ const cards = [
 const WhyChooseUs = () => (
   <section className="w-full flex flex-col items-start py-20 px-2 md:px-8 bg-white">
     <h2 className="text-[#1661A6] text-4xl md:text-[64px] font-cormorant font-medium mb-10 md:mb-16 leading-[40px] md:leading-[72px] tracking-[1.2px] text-left ml-4 md:ml-24">Why Choose Us?</h2>
-    <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 ml-0 md:ml-24">
+    <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 ml-0 md:ml-9">
       {cards.map((card, idx) => (
         <div key={idx} className={`rounded-2xl shadow-lg ${card.bg} flex flex-col items-start px-6 py-8 md:px-8 md:py-10 min-h-[340px] md:min-h-[440px] transition-transform hover:-translate-y-2 w-full`}>
           <img src={card.icon} alt={card.title} className="h-16 w-16 mb-6" />
