@@ -1,39 +1,42 @@
 import React from 'react';
+import logo from './assets/logo.png';
 
 const Footer = () => (
   <footer className="bg-[#EAF1F8] border-t border-[#C7D3E0] w-full mt-12">
-    <div className="w-full mx-auto px-4 md:px-12 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-20 justify-between text-left md:text-center">
+    <div className="w-full mx-auto px-4 md:px-12 py-10 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-20 justify-between text-left md:text-center">
+      {/* Logo */}
+      <div className="flex justify-start items-center ">
+        <img src={logo} alt="Spiritual Bliss Logo" className="w-[152px] h-[170px] object-contain rounded-lg border border-[#C7D3E0] bg-white p-2" />
+      </div>
       {/* Spiritual */}
       <div>
         <h4 className="text-[#0655A0] text-xl font-semibold mb-4 font-lato">Spiritual</h4>
         <ul className="space-y-2 text-[#0655A0] font-lato text-base">
-          <li><a href="#" className="hover:underline">About us</a></li>
+          <li><a href="#about" className="hover:underline">About us</a></li>
           <li><a href="#" className="hover:underline">Join us</a></li>
-          <li><a href="#" className="hover:underline">Offers</a></li>
+          <li><a href="#services" className="hover:underline">Offers</a></li>
           <li><a href="#" className="hover:underline">Awards</a></li>
-          <li><a href="#" className="hover:underline">Events</a></li>
+          
         </ul>
       </div>
       {/* Explore */}
       <div>
         <h4 className="text-[#0655A0] text-xl font-semibold mb-4 font-lato">Explore</h4>
         <ul className="space-y-2 text-[#0655A0] font-lato text-base">
-        <li><a href="#" className="hover:underline">About us</a></li>
-          <li><a href="#" className="hover:underline">Join us</a></li>
-          <li><a href="#" className="hover:underline">Offers</a></li>
-          <li><a href="#" className="hover:underline">Awards</a></li>
-          <li><a href="#" className="hover:underline">Events</a></li>
+        <li><a href="#blogs" className="hover:underline">Blogs</a></li>
+          <li><a href="#events" className="hover:underline">Events</a></li>
+          <li><a href="#numerology" className="hover:underline">Numerology</a></li>
+          <li><a href="#certificates" className="hover:underline">Certificates</a></li>
+          
         </ul>
       </div>
       {/* Resources */}
       <div>
         <h4 className="text-[#0655A0] text-xl font-semibold mb-4 font-lato">Resources</h4>
         <ul className="space-y-2 text-[#0655A0] font-lato text-base">
-        <li><a href="#" className="hover:underline">About us</a></li>
-          <li><a href="#" className="hover:underline">Join us</a></li>
-          <li><a href="#" className="hover:underline">Offers</a></li>
-          <li><a href="#" className="hover:underline">Awards</a></li>
-          <li><a href="#" className="hover:underline">Events</a></li>
+        <li><a href="#gallery" className="hover:underline">Gallery</a></li>
+          <li><a href="#testimonials" className="hover:underline">Testimonials</a></li>
+          
         </ul>
       </div>
     </div>
