@@ -27,7 +27,7 @@ export default function ImageSlider() {
               key={`row1-${index}`}
               src={src}
               alt={`row1-img-${index}`}
-              className="w-[200px] md:w-[250px] h-auto mx-2"
+              className="w-[200px] md:w-[250px] h-auto max-h-[190px] md:max-h-[300px] object-cover mx-2"
             />
           ))}
         </div>
@@ -41,7 +41,7 @@ export default function ImageSlider() {
               key={`row2-${index}`}
               src={src}
               alt={`row2-img-${index}`}
-              className="w-[200px] md:w-[250px] h-auto mx-2"
+              className="w-[200px] md:w-[250px] h-auto max-h-[190px] md:max-h-[300px] object-cover mx-2"
             />
           ))}
         </div>
