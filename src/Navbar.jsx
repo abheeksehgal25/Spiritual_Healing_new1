@@ -38,7 +38,7 @@ const Navbar = () => {
       >
         {/* Nav Links */}
         <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10 text-white font-semibold text-xl w-full md:w-auto">
-          {['home', 'about', 'services', 'events', 'Certificate', 'blogs'].map((item) => (
+          {['home', 'about', 'services', 'events', 'blogs'].map((item) => (
             <Link
               key={item}
               to={item}
