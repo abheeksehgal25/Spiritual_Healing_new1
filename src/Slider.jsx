@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import first from './assets/first.jpg';
-import second from './assets/second.jpg';
-import third from './assets/third.jpg';
+import second from './assets/2nd.jpeg';
+import third from './assets/third.jpeg';
 
 const images = [first, second, third];
 
