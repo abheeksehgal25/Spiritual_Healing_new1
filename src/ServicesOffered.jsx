@@ -40,7 +40,7 @@ const ServicesOffered = () => (
     {/* Top left Card */}
     <div className={`relative rounded-2xl p-4 md:p-8 ${services[0].bg} transition-transform hover:scale-105 hover:shadow-xl cursor-pointer flex flex-col items-start justify-center w-full h-full md:aspect-square order-1`}> 
       <div className='bg-[#E7F6A0] justify-end px-10 py-10 md:px-20 md:py-20 rounded-full'></div>
-      <h3 className="mb-2 font-normal text-2xl md:text-[56px] leading-[32px] md:leading-[56px] tracking-[0px] font-cormorant">{services[0].title}</h3>
+      <h3 className="mb-2 font-normal text-3xl md:text-[56px] leading-[32px] md:leading-[56px] tracking-[0px] font-cormorant">{services[0].title}</h3>
       <p className="mt-3 md:mt-5 font-light text-base md:text-[28px] leading-[20px] md:leading-[28px] tracking-[0px] font-lato">{services[0].desc}</p>
       <div className='bg-[#E7F6A0] px-6 py-6 md:px-10 md:py-10 rounded-full'></div>
       <a href="https://web.whatsapp.com/">
@@ -64,7 +64,7 @@ const ServicesOffered = () => (
     {/* Bottom right Card */}
     <div className={`relative rounded-2xl p-4 md:p-8 ${services[3].bg} transition-transform hover:scale-105 hover:shadow-xl cursor-pointer flex flex-col items-start justify-center w-full h-full md:aspect-square order-3 md:order-4`}>
     <div className='bg-[#E7F6A0] justify-end px-10 py-10 md:px-20 md:py-20 rounded-full'></div>
-      <h3 className="mb-2 font-normal text-2xl md:text-[56px] leading-[32px] md:leading-[56px] tracking-[0px] font-cormorant">{services[3].title}</h3>
+      <h3 className="mb-2 font-normal text-3xl md:text-[56px] leading-[32px] md:leading-[56px] tracking-[0px] font-cormorant">{services[3].title}</h3>
       <p className="mt-3 md:mt-5 font-light text-base md:text-[28px] leading-[20px] md:leading-[28px] tracking-[0px] font-lato">{services[3].desc}</p>
       <div className='bg-[#E7F6A0] px-6 py-6 md:px-8 md:py-8 rounded-full'></div>
       <a href="https://web.whatsapp.com/">
