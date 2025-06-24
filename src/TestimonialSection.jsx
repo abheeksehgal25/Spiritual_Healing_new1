@@ -34,7 +34,7 @@ const testimonials = [
 
 const TestimonialSection = () => {
   return (
-    <div className="px-4 py-16 w-full  bg-white">
+    <div className="px-4 py-16 w-full  bg-white animate-fadeInUp">
       {/* Heading + Arrows in one flex row */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div className="ml-4 md:ml-24">
@@ -58,11 +58,11 @@ const TestimonialSection = () => {
         {testimonials.map((t, i) => (
           <div
             key={i}
-            className={`${t.bgColor} border ${t.borderColor} p-6 rounded-b-full rounded-t-lg shadow hover:shadow-lg transition duration-300 h-full flex min-h-[300px] md:min-h-[300px] overflow-hidden flex-col items-center`}
+            className={`${t.bgColor} border ${t.borderColor} p-6 rounded-b-full rounded-t-lg shadow hover:shadow-lg transition duration-300 h-full flex min-h-[300px] md:min-h-[300px] overflow-hidden flex-col items-center hover:card-pop`}
           >
             {/* Image + Name + Role */}
             <div className="flex items-center gap-4 mb-4">
-              <img src={t.image} alt="avatar" className="w-16 h-16 rounded-full shrink-0" />
+              <img src={t.image} alt="avatar" className="w-16 h-16 rounded-full shrink-0 hover:img-zoom" />
               <div className="text-left">
                 <h4 className="text-[#0655A0] font-medium text-[17.38px] leading-[17.66px] tracking-[0px] align-middle font-lato">{t.name}</h4>
                 <p className=" font-light text-[#A44C52] text-[13.52px] leading-[17.66px] tracking-[0px] align-middle font-lato mt-2">{t.role}</p>
@@ -74,7 +74,7 @@ const TestimonialSection = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <button className="mt-4 md:mt-0 bg-[#0655A0] text-white px-16 py-2 rounded-full shadow-md hover:shadow-lg transition font-normal text-[15.68px] font-inter">
+        <button className="mt-4 md:mt-0 bg-[#0655A0] text-white px-16 py-2 rounded-full shadow-md hover:shadow-lg transition font-normal text-[15.68px] font-inter hover:btn-glow">
           View all Testimonials
         </button>
       </div>

@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-20 px-4 md:px-16 py-2 flex items-center justify-between bg-transparent md:bg-transparent shadow-lg">
+    <nav className="absolute top-0 left-0 w-full z-20 px-4 md:px-16 py-2 flex items-center justify-between bg-transparent md:bg-transparent shadow-lg animate-fadeInUp">
       {/* Logo */}
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="h-12 w-12 rounded-full bg-white p-1 shadow" />
@@ -46,7 +46,7 @@ const Navbar = () => {
               duration={500}
               offset={-80}
               onClick={() => setMenuOpen(false)}
-              className={`cursor-pointer capitalize hover:text-gray-300 transition md:bg-transparent md:rounded-none md:px-0 md:py-0 ${
+              className={`cursor-pointer capitalize hover:text-gray-300 transition md:bg-transparent md:rounded-none md:px-0 md:py-0 link-underline ${
                 menuOpen ? 'bg-[#0655A0] rounded-lg px-4 py-2 !backdrop-blur-0 !bg-opacity-100' : ''
               }`}
             >
@@ -58,7 +58,7 @@ const Navbar = () => {
         {/* CTA Button */}
         <a href="https://web.whatsapp.com/">
         <button
-          className={`w-full md:w-auto mt-4 md:mt-0 px-6 py-2 rounded-full font-medium transition shadow 
+          className={`w-full md:w-auto mt-4 md:mt-0 px-6 py-2 rounded-full font-medium transition shadow hover:btn-glow 
             ${menuOpen ? 'bg-white text-[#0655A0]' : 'bg-[#0655A0] text-white hover:bg-blue-600'}`}
         >
           Join Now

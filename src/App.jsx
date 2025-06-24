@@ -12,6 +12,7 @@ import BlogSection from './BlogSection'
 import Journey from './Journey'
 import Footer from './Footer'
 import ImageSlider from './ImageSlider';
+import InstagramSection from './InstagramSection';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
 
         <section id="events">
           <UpcomingEvents />
+          <InstagramSection />
           <TestimonialSection />
         </section>
 
