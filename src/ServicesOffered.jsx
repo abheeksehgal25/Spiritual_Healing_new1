@@ -45,7 +45,7 @@ const ServicesOffered = () => (
       <div className='bg-[#E7F6A0] px-6 py-6 md:px-10 md:py-10 rounded-full'></div>
       <a href="https://calendly.com/meenalkhandelwal55">
       <button className="mt-4 md:mt-6 bg-[#0655A0] hover:bg-blue-800 text-white md:text-[18px] px-5 md:px-7 py-2 md:py-3 rounded-full shadow-lg transition font-bold leading-[24px] px-6 md:px-8 text-[15.68px] tracking-[2px] text-center uppercase font-urbanist">
-        CONTACT US
+        BOOK A CALL
       </button> </a>
     </div>
 
@@ -69,7 +69,7 @@ const ServicesOffered = () => (
       <div className='bg-[#E7F6A0] px-6 py-6 md:px-8 md:py-8 rounded-full'></div>
       <a href="https://calendly.com/meenalkhandelwal55">
       <button className="mt-4 md:mt-6 bg-[#0655A0] hover:bg-blue-800 text-white md:text-[18px] px-5 md:px-7 py-2 md:py-3 rounded-full shadow-lg transition font-bold leading-[24px] px-6 md:px-8 text-[15.68px] tracking-[2px] text-center uppercase font-urbanist">
-        CONTACT US
+        BOOK A CALL
       </button></a>
     </div>
     
