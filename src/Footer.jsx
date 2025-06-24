@@ -43,7 +43,7 @@ const Footer = () => (
     <div className="border-t border-[#C7D3E0] py-4 px-4 md:px-12 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto">
       <div className="text-[#0655A0] text-sm font-lato mb-4 md:mb-0 text-left md:text-left">
         Developed by House of Marktech<br />
-        © 2025 ForeverShine. All rights reserved.
+        © 2025 Spiritual Healing. All rights reserved.
       </div>
       <div className="flex items-center gap-4">
         <span className="text-[#0655A0] text-sm font-lato mr-2">Find us on</span>
