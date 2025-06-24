@@ -52,10 +52,10 @@ const InstagramSection = () => (
         </div>
       </div>
       {/* Posts Grid */}
-      <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-4">
         {postImages.map((img, idx) => (
           <a key={idx} href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="block rounded-lg overflow-hidden shadow hover:scale-105 transition-transform bg-gray-100">
-            <img src={img} alt={`Instagram post ${idx + 1}`} className="w-full h-48 object-cover hover:img-zoom" />
+            <img src={img} alt={`Instagram post ${idx + 1}`} className="w-full h-32 md:h-48 object-cover hover:img-zoom" />
           </a>
         ))}
       </div>
